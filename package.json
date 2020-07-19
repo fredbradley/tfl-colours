@@ -12,8 +12,6 @@
     "eslint": "cross-env NODE_ENV=development node_modules/eslint/bin/eslint.js resources/assets/js"
   },
   "devDependencies": {
-    "axios": "^0.18.1",
-    "bootstrap-sass": "^3.4.1",
     "cross-env": "^5.2.1",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^11.0.0",
@@ -21,21 +19,15 @@
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
-    "jquery": "^3.5.1",
     "laravel-mix": "^4.1.4",
     "lodash": "^4.17.19",
     "resolve-url-loader": "2.3.1",
     "sass": "^1.26.10",
     "sass-loader": "^7.3.1",
     "vue": "^2.6.11",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "sass-lint": "^1.13.1"
   },
-  "dependencies": {
-    "bootstrap-datepicker": "^1.9.0",
-    "datepicker": "^0.0.0",
-    "font-awesome": "^4.7.0",
-    "jquery-maskmoney": "^3.0.2",
-    "select2": "^4.0.13"
-  },
+  "dependencies": {},
   "version": "1.0.3"
 }
