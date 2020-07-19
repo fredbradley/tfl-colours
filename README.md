@@ -1,5 +1,6 @@
-<link rel="stylesheet" href="https://git.fred.im/tfl-colours/build/css/style.css">
-
+<style>
+  .tfl-bakerloo { background:#000;color:#fff;display:block;}
+  </style>
 # TFL Colours
 
 <span style="tfl tfl-bakerloo">Bakerloo</span>
