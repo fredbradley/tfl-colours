@@ -1,73 +1,77 @@
 /* London Underground Colours */
 /* Taken from http://blog.richardallen.co.uk/london-tube-colours/ on Friday, 3rd Jan 2014 */
+
+
+$lines: (
+    waterloocity: (
+        background: #95cdba,
+        color: #000,
+    ),
+    bakerloo: (
+        background: #b36305,
+        color: #fff
+    ),
+    circle: (
+        background: #ffd300,
+        color: #000
+    ),
+    central: (
+        background: #e32017,
+        color: #fff
+    ),
+    district: (
+        background: #00782a,
+        color:#fff
+    ),
+    dlr: (
+        background: #00782a,
+        color:#fff
+    ),
+    hammersmith: (
+        background: #f3a9bb,
+        color: #000
+    ),
+    jubilee: (
+        background: #a0a5a9,
+        color: #000
+    ),
+    metropolitan:(
+        background: #9b0056,
+        color: #fff,
+    ),
+    northern: (
+        background: #000,
+        color: #fff,
+    ),
+    overground:(
+        background: #ee7c0e,
+        color: #fff,
+    ),
+    piccadilly: (
+        background: #003688,
+        color: #fff,
+    ),
+    tramlink: (
+        background: #84b816,
+        color: #fff,
+    ),
+    victoria: (
+        background: #0098d4,
+        color: #fff,
+    ),
+
+);
+
+
 .tfl {
-    &.tfl-circle {
-        background: #ffd300;
-        color: #000;
+    @each $line, $values in $lines {
+        &.tfl-#{$line} {
+            background: map-get($values, 0);
+            color: map-get($values, 1);
+        }
     }
-
-    &.tfl-bakerloo {
-        background: #b36305;
-        color: #fff;
-    }
-
-    &.tfl-central {
-        background: #e32017;
-        color: #fff;
-    }
-
-    &.tfl-district {
-        background: #00782a;
-        color: #fff;
-    }
-
-    &.tfl-dlr {
-        background: #00782a;
-        color: #fff;
-    }
-
-    &.tfl-hammersmith {
-        background: #f3a9bb;
-        color: #000;
-    }
-
-    &.tfl-jubilee {
-        background: #a0a5a9;
-        color: #000;
-    }
-
-    &.tfl-metropolitan {
-        background: #9b0056;
-        color: #fff;
-    }
-
-    &.tfl-northern {
-        background: #000;
-        color: #fff;
-    }
-
-    &.tfl-overground {
-        background: #ee7c0e;
-        color: #fff;
-    }
-
-    &.tfl-piccadilly {
-        background: #003688;
-        color: #fff;
-    }
-
-    &.tfl-tramlink {
-        background: #84b816;
-        color: #fff;
-    }
-
-    &.tfl-victoria {
-        background: #0098d4;
-        color: #fff;
-    }
-
-    &.tfl-waterloocity {
-        background: #95cdba;
-        color: #000;
+    .test {
+        border: 1px solid grey;
     }
 }
+
