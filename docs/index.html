@@ -5,11 +5,15 @@
           integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg=="
           crossorigin="anonymous"/>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fredbradley/tfl-colours/build/css/style.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"/>
 </head>
 <body>
 <article class="markdown-body">
-    <h1>Examples</h1>
+    <h1>TFL Colours</h1>
+
     <p>Implementation is really simple, just give what ever you want to color-code a two classes. </p>
+
+    <h3>Example 1 - Simple Usage</h3>
     <ul>
         <li><code>tfl</code></li>
         <li><code>tfl-{underground-line}</code></li>
@@ -18,6 +22,12 @@
         &lt;p&gt;Take the &lt;span class=&quot;tfl tfl-bakerloo&quot;&gt;Bakerloo&lt;/span&gt; Line&lt;/p&gt;
     </pre>
     <p>Take the <span class="tfl tfl-bakerloo">Bakerloo</span> Line</p>
+    <h3>Example 2 - With Bootstrap</h3>
+    <p>When you add some more CSS on top, like Bootstrap, it really comes alive...</p>
+    <pre>
+        &lt;p&gt;Take the &lt;span class=&quot;badge tfl tfl-bakerloo&quot;&gt;Bakerloo&lt;/span&gt; Line&lt;/p&gt;
+    </pre>
+    <p>Take the <span class="badge tfl tfl-bakerloo">Bakerloo</span> Line</p>
 </article>
 </body>
 </html>
