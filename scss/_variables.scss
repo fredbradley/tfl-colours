@@ -1,7 +1,3 @@
-/* London Underground Colours */
-/* Taken from http://blog.richardallen.co.uk/london-tube-colours/ on Friday, 3rd Jan 2014 */
-
-
 $lines: (
     waterloocity: (
         background: #95cdba,
@@ -21,11 +17,11 @@ $lines: (
     ),
     district: (
         background: #00782a,
-        color:#fff
+        color: #fff
     ),
     dlr: (
         background: #00782a,
-        color:#fff
+        color: #fff
     ),
     hammersmith: (
         background: #f3a9bb,
@@ -35,7 +31,7 @@ $lines: (
         background: #a0a5a9,
         color: #000
     ),
-    metropolitan:(
+    metropolitan: (
         background: #9b0056,
         color: #fff,
     ),
@@ -43,7 +39,7 @@ $lines: (
         background: #000,
         color: #fff,
     ),
-    overground:(
+    overground: (
         background: #ee7c0e,
         color: #fff,
     ),
@@ -61,17 +57,3 @@ $lines: (
     ),
 
 );
-
-
-.tfl {
-    @each $line, $values in $lines {
-        &.tfl-#{$line} {
-            background: map-get($values, 0);
-            color: map-get($values, 1);
-        }
-    }
-    .test {
-        border: 1px solid grey;
-    }
-}
-
