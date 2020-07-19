@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "sasslintConfig": "./.sass-lint.yml",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "eslint": "cross-env NODE_ENV=development node_modules/eslint/bin/eslint.js resources/assets/js"
+  },
+  "devDependencies": {
+    "axios": "^0.18.1",
+    "bootstrap-sass": "^3.4.1",
+    "cross-env": "^5.2.1",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jquery": "^3.5.1",
+    "laravel-mix": "^4.1.4",
+    "lodash": "^4.17.19",
+    "resolve-url-loader": "2.3.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^7.3.1",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "bootstrap-datepicker": "^1.9.0",
+    "datepicker": "^0.0.0",
+    "font-awesome": "^4.7.0",
+    "jquery-maskmoney": "^3.0.2",
+    "select2": "^4.0.13"
+  },
+  "version": "1.0.3"
+}
