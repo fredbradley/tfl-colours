@@ -2,7 +2,7 @@
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/"
     },
-    "private": true,
+    "name": "tfl-colours",
     "sasslintConfig": "./.sass-lint.yml",
     "scripts": {
         "prod": "npm run production",
