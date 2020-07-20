@@ -107,6 +107,12 @@ tfl tfl-district badge">District</span> Lines to Sloane Square.</p>
         if (string == "tramlink") {
             return "Tramlink";
         }
+        if (string == 'waterloocity') {
+            return "Waterloo & City Line";
+        }
+        if (string == 'hammersmith') {
+            return "Hammersmith & City Line";
+        }
         return string.charAt(0).toUpperCase() + string.slice(1) + " Line";
     }
 
