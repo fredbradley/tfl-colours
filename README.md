@@ -22,6 +22,8 @@ Alternatively you can just copy the contents of `build/css/style.css` (it's only
 ## Usage / Examples
 For example, please checkout the [examples page](https://git.fred.im/tfl-colours).
 
+![example](https://github.com/fredbradley/tfl-colours/raw/master/docs/example.png "Example")
+
 ## License
 MIT
 
