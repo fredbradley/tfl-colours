@@ -20,6 +20,9 @@ This method is still a work in progress. See Issue [#1](https://github.com/fredb
 Alternatively you can just copy the contents of `build/css/style.css` (it's only small). However, you won't have the benefit of any updates being automatically applied.
 
 ## Usage / Examples
+```html
+<span class="tfl tfl-jubilee">Jubilee Line</span>
+```
 For example, please checkout the [examples page](https://git.fred.im/tfl-colours).
 
 ![example](https://github.com/fredbradley/tfl-colours/raw/master/docs/example.png "Example")
