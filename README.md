@@ -2,14 +2,25 @@
 
 A simple snippet of CSS which can brighten up your website when giving complex travel instructions or direction when using public transport in London.
 
-## Usage
+## Installation
 ### Via a CDN
 Just add this line of code into your `<head>`.
 ```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fredbradley/tfl-colours/build/css/style.css" />
 ``` 
+### Via NPM
+```bash
+npm install @fredbradley/tfl-colours
+```
+Then in your main JS:
+`require('@fredbradley/tfl-colours')`
+This method is still a work in progress. See Issue #1 for more info.
+
 ### Copy the code
-Alternatively you can just copy the code. However, you won't have the benefit of any updates being automatically applied.
+Alternatively you can just copy the contents of `build/css/style.css` (it's only small). However, you won't have the benefit of any updates being automatically applied.
+
+## Usage / Examples
+For example, please checkout the [examples page](https://git.fred.im/tfl-colours).
 
 ## License
 MIT
