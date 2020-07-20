@@ -14,7 +14,7 @@ npm install @fredbradley/tfl-colours
 ```
 Then in your main JS:
 `require('@fredbradley/tfl-colours')`
-This method is still a work in progress. See Issue #1 for more info.
+This method is still a work in progress. See Issue [#1](https://github.com/fredbradley/tfl-colours/issues/1) for more info.
 
 ### Copy the code
 Alternatively you can just copy the contents of `build/css/style.css` (it's only small). However, you won't have the benefit of any updates being automatically applied.
