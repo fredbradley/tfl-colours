@@ -18,9 +18,9 @@
     "sass-loader": "^7.3.1"
   },
   "dependencies": {},
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple snippet of CSS which can brighten up your website when giving complex travel instructions or direction when using public transport in London.",
-  "main": "build/css/style.css",
+  "main": "index.js",
   "directories": {
     "doc": "docs"
   },
