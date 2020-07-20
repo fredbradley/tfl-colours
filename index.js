@@ -9,4 +9,4 @@ function addCss(filename) {
     head.appendChild(link);
 }
 
-addCss('build/css/style.css');
+addCss('node_modules/@fredbradley/tfl-colours/build/css/style.css');
